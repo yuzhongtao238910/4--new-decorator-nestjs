@@ -1,0 +1,17 @@
+{
+  "name": "5.provider",
+  "version": "1.0.0",
+  "description": "- 提供者是nestjs之中的一个基本概念，许多的基本的nest类都可以作为提供者-服务，仓库，工厂，助手等等 - 提供者的理念是他可以作为依赖注入，这意味着对象之中可以相互创建各种关系，并且将这些对象连接起来的功能可以交给nestjs来处理的 - 控制器会将更加复杂的任务委托给提供者 - solid原则",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  }
+}
